@@ -1,0 +1,13 @@
+#choicebox{
+
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    whitespace: nowrap;
+    font-family: 'runescape_chat_bold_07regular';
+    font-size: 18px;
+    color: #FFFF00;
+    text-shadow: 1px 1px black;
+}
