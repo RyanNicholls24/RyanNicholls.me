@@ -1,0 +1,161 @@
+﻿@page "/iron"
+
+<style>
+    .UI {
+        background-color: sandybrown;
+        height: 800px;
+        width: 800px;
+        position: relative;
+    }
+
+    .Buttons {
+        visibility: hidden;
+        background-color: rosybrown;
+        position: relative;
+        height: 25px;
+        width: 100%;
+    }
+
+    #Continue {
+        visibility: visible;
+        bottom: 0px;
+        display: inline;
+        text-align: center;
+        height: auto;
+        width: auto;
+        position: absolute;
+    }
+
+    #modButton1{
+
+    }
+    #modButton2{
+
+    }
+    #modButton3{
+
+    }
+    #modButton4{
+
+    }
+    #map {
+        background-image: url('../Continent.png');
+        background-color: darkslategray;
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #settings {
+        background-color: slategray;
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    #Dialog {
+        position: absolute;
+        left: 25%;
+        right: 50%;
+        background-color: slategray;
+        height: 25%;
+        width: 50%;
+        bottom: 0px;
+        border: 1px solid black;
+    }
+
+    #currentDialog {
+    font-family: 'runescape_chat_bold_07regular';
+    font-size: 1.2em;
+    color:#FFFF00;
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+    white-space: nowrap;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: width 2s;
+    }
+
+    #Choices {
+        position: absolute;
+        left: 25%;
+        right: 50%;
+        background-color: darkslategrey;
+        height: 20%;
+        width: 50%;
+        bottom: 25%;
+    }
+</style>
+
+<h1>Iron</h1>
+<div class="UI" @onload="Intro">
+    <div id="map">
+
+    </div>
+
+    <div id="Choices">
+        <button class="Buttons" id="Continue" @onclick="Continue">Continue...</button>
+        <button class="Buttons" id="modButton1" @onclick="setButton1">@modButton1Text</button>
+        <button class="Buttons" id="modButton2" @onclick="setButton2">@modButton2Text</button>
+        <button class="Buttons" id="modButton3" @onclick="setButton3">@modButton3Text</button>
+        <button class="Buttons" id="modButton4" @onclick="setButton4">@modButton4Text</button>
+
+    </div>
+    <div id="Dialog">
+        <div id="currentDialog">@currentDialog</div>
+    </div>
+    <div id="settings">
+
+    </div>
+</div>
+@code {
+    string currentDialog = "Welcome. Press 'Continue...' to advance Dialog";
+    string modButton1Text = "";
+    string modButton2Text = "";
+    string modButton3Text = "";
+    string modButton4Text = "";
+
+    void Intro() {
+        currentDialog = "The Continent of Iron is a wonderful place.";
+    }
+
+
+
+
+    void Continue()
+    {
+        currentDialog = "";
+        string nextDialog = "nextDialog Not Set";
+
+        for (int i = 0; i < nextDialog.Length; i++) {
+
+            currentDialog = currentDialog + nextDialog[i].ToString();
+            //System.Threading.Thread.Sleep(50);
+        }
+
+
+    }
+
+    void setButton1()
+    {
+
+    }
+
+    void setButton2()
+    {
+
+    }
+    void setButton3()
+    {
+
+    }
+    void setButton4()
+    {
+
+    }
+}

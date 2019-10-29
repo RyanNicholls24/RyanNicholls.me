@@ -1,0 +1,94 @@
+﻿@page "/i"
+@model BlazorApp1.Pages.IronModel
+@{
+    ViewData["Title"] = "Iron";
+}
+
+<style>
+    .UI {
+        background-color: sandybrown;
+        height: 800px;
+        width: 800px;
+        position: relative;
+    }
+
+    .Buttons {
+        background-color: rosybrown;
+    }
+
+    #BotMid {
+        position: absolute;
+        left: 25%;
+        right: 50%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #map {
+        background-color: slategray;
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #settings {
+        background-color: slategray;
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    #Dialog {
+        position: absolute;
+        left: 25%;
+        right: 50%;
+        background-color: slategray;
+        height: 25%;
+        width: 50%;
+        bottom: 0px;
+        border: 1px solid black;
+    }
+
+    #Choices {
+        position: absolute;
+        left: 25%;
+        right: 50%;
+        background-color: darkslategrey;
+        height: 10%;
+        width: 50%;
+        bottom: 25%;
+    }
+</style>
+
+<h1>Iron</h1>
+<div class="UI">
+    <div id="map">
+
+    </div>
+
+    <div id="Choices">
+        <button class="Buttons" id="Continue" onclick="Continue()">Continue...</button>
+    </div>
+    <div id="Dialog">
+
+    </div>
+    <div id="settings">
+
+    </div>
+</div>
+
+@functions
+{
+    //VARS
+
+    //VARS
+
+
+    private static void Continue()
+    {
+    }
+}
