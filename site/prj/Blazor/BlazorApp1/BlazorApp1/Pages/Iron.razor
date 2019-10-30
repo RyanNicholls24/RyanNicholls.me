@@ -26,18 +26,18 @@
         position: absolute;
     }
 
-    #modButton1{
-
+    #modButton1 {
     }
-    #modButton2{
 
+    #modButton2 {
     }
-    #modButton3{
 
+    #modButton3 {
     }
-    #modButton4{
 
+    #modButton4 {
     }
+
     #map {
         background-image: url('../Continent.png');
         background-color: darkslategray;
@@ -69,16 +69,16 @@
     }
 
     #currentDialog {
-    font-family: 'runescape_chat_bold_07regular';
-    font-size: 1.2em;
-    color:#FFFF00;
-    display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
-    white-space: nowrap;
-    font-size: 14px;
-    box-sizing: border-box;
-    transition: width 2s;
+        font-family: 'runescape_chat_bold_07regular';
+        font-size: 1.2em;
+        color: #FFFF00;
+        display: inline-block;
+        overflow: hidden;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        font-size: 14px;
+        box-sizing: border-box;
+        transition: width 2s;
     }
 
     #Choices {
@@ -113,33 +113,39 @@
 
     </div>
 </div>
+@inject IJSRuntime JSRuntime
 @code {
+
+    private void setInnerHTML(string id, string content)
+    {
+        JSRuntime.InvokeVoidAsync("setInnerHTML", id, content);
+    }
+
+    private void setElementVis(string id, string vis)
+    { 
+        JSRuntime.InvokeVoidAsync("setElementVis", id, vis);
+    }
+
+    void Intro()
+    {
+        currentDialog = "The Continent of Iron is a wonderful place.";
+    }
+
+    void Continue()
+    {
+        currentDialog = nextDialog;
+
+
+    }
+
+
     string currentDialog = "Welcome. Press 'Continue...' to advance Dialog";
+    string nextDialog = "";
     string modButton1Text = "";
     string modButton2Text = "";
     string modButton3Text = "";
     string modButton4Text = "";
 
-    void Intro() {
-        currentDialog = "The Continent of Iron is a wonderful place.";
-    }
-
-
-
-
-    void Continue()
-    {
-        currentDialog = "";
-        string nextDialog = "nextDialog Not Set";
-
-        for (int i = 0; i < nextDialog.Length; i++) {
-
-            currentDialog = currentDialog + nextDialog[i].ToString();
-            //System.Threading.Thread.Sleep(50);
-        }
-
-
-    }
 
     void setButton1()
     {
