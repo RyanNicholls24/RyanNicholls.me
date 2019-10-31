@@ -1,7 +1,5 @@
 ﻿@page "/iron"
-@using Newtonsoft.Json;
-@using System.Data;
-@using System.Data.SqlClient;
+@using BlazorApp1.Data;
 
 <style>
     .UI {
@@ -170,7 +168,10 @@
 
     string getNewDialog(int index)
     {
+
         //get new dialog from DB. Based on NPC, quest active/inactive, etc.
+
+
         string newDialog = "";
         switch (index)
         {
