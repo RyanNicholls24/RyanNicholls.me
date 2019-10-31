@@ -440,3 +440,16 @@ C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blaz
 C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\BlazorApp1.csproj.CopyComplete
 C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\BlazorApp1.dll
 C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\BlazorApp1.pdb
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\RazorDeclaration\BlazorApp1.dll
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\App.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Pages\Counter.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Pages\Error.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Pages\FetchData.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Pages\Index.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Pages\Iron.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Shared\LoginDisplay.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\rnicholls\Desktop\Scripts For Jenkins\Git\RyanNicholls.me\site\prj\Blazor\BlazorApp1\BlazorApp1\obj\Debug\netcoreapp3.0\Razor\_Imports.razor.g.cs
